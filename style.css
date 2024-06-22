@@ -45,6 +45,11 @@ body {
   padding: 0 10px;
 }
 
+.userCard h2,
+.userCard h3 {
+  font-weight: bold;
+}
+
 .profilePhoto {
   width: 100px;
   height: 100px;
@@ -52,21 +57,28 @@ body {
   object-fit: cover;
 }
 
+.salary {
+  margin-bottom: 15px;
+}
+
 .location {
   text-align: center;
   color: grey;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .userCard p {
   color: gray;
   text-align: center;
+  margin-bottom: 2em;
 }
 
 .viewButton {
   width: 70%;
   height: 3em;
   border: 2px solid blue;
-  border-radius: 5px;
+  border-radius: 10px;
   background-color: white;
   color: blue;
   font-weight: bold;
@@ -75,7 +87,7 @@ body {
 .makeButton {
   width: 70%;
   height: 3em;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   background-color: blue;
   color: white;
